@@ -65,3 +65,6 @@ cifar-100-binary*
 resnet-18.t7
 init*
 resnet_baseline*
+
+# virtualenv
+venv*

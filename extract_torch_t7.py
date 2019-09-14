@@ -1,13 +1,12 @@
 import os
 import tensorflow as tf
 import numpy as np
-import cPickle as pickle
-import torchfile  # pip install torchfile
+import pickle 
+import torchfile
 
 import resnet
 
-os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID"   # see issue #152
-os.environ["CUDA_VISIBLE_DEVICES"]="0"  # set an available GPU
+os.environ["CUDA_VISIBLE_DEVICES"]="1"  # set an available GPU
 
 # FLAGS(?)
 T7_PATH = './resnet-18.t7'
